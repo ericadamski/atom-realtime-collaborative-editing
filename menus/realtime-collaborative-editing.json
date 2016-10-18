@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle realtime-collaborative-editing",
+        "command": "realtime-collaborative-editing:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "realtime-collaborative-editing",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "realtime-collaborative-editing:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
