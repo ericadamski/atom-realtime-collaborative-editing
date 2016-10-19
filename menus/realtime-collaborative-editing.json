@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle realtime-collaborative-editing",
-        "command": "realtime-collaborative-editing:toggle"
+        "label": "Share this document",
+        "command": "realtime-collaborative-editing:serve"
       }
     ]
   },
@@ -15,8 +15,12 @@
           "label": "realtime-collaborative-editing",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "realtime-collaborative-editing:toggle"
+              "label": "Serve",
+              "command": "realtime-collaborative-editing:serve"
+          },
+            {
+              "label": "Connect",
+              "command": "realtime-collaborative-editing:connect"
             }
           ]
         }
