@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Share this document",
-        "command": "realtime-collaborative-editing:serve"
+        "command": "realtime-collaborative-editing:collaborate"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "realtime-collaborative-editing",
           "submenu": [
             {
-              "label": "Serve",
-              "command": "realtime-collaborative-editing:serve"
+              "label": "Share",
+              "command": "realtime-collaborative-editing:collaborate"
           },
             {
               "label": "Connect",
