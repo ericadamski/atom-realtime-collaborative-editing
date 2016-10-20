@@ -5,4 +5,39 @@
 @import "ui-variables";
 
 .realtime-collaborative-editing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: @overlay-background-color;
+    border-radius: 2.5px;
+    overflow: hidden;
+    top: 20%;
+
+    & span { color: @text-color-success; }
+
+    .left-icon {
+        background: tint(@overlay-background-color, 10%);
+        margin: 0 !important;
+        padding: 16px !important;
+        margin-right: 5px !important;
+    }
+
+    .close {
+        position: absolute;
+        font-size: 0.5em;
+        right: 0;
+        padding: 10px;
+        color: white;
+    }
+
+    .is-sharing {
+        font-size: 1.25em;
+        padding: 10px 15px;
+        color: @text-color-success;
+
+        .document-title {
+            margin-left: 5px;
+            text-decoration: underline;
+        }
+    }
 }
